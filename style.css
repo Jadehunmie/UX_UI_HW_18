@@ -165,10 +165,22 @@ li {
 
 .card {
     display: flex;
-    width: 500px;
-    height: auto;
-    align-items: flex-start;
-    justify-content: center;
+    flex-direction: column;
+    max-width: 500px;
+    min-width: 320px;
+    margin: 1rem;
+    padding: 1rem;
+    flex-flow: 1;
+    height: 560px;
+    background-color: white;
+    border: 1px solid #428551 ;
+    border-radius: 0.8rem;
+}
+
+img {
+    height: 50%;
+    flex-flow: 1;
+    border-radius: 0.6rem;
 }
 
 h2, h3 {
